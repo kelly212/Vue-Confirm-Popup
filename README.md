@@ -2,6 +2,7 @@
 
 # Vue-Confirm-Popup
  É um componente de confirmação personalizável que exibe um pop-up de confirmação antes de executar ações críticas, como exclusão ou alterações permanentes. Ele é útil para prevenir ações indesejadas, fornecendo ao usuário a chance de confirmar ou cancelar a ação.
+ É compativel com  Vuetify 3.x
 ## Install 
 #### NPM 
 Para usar o componente em seu projeto Vue 3, instale o pacote via NPM:
