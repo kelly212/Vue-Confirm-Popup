@@ -1,3 +1,5 @@
+![Logo](public/movie.gif)
+
 # Vue-Confirm-Popup
  É um componente de confirmação personalizável que exibe um pop-up de confirmação antes de executar ações críticas, como exclusão ou alterações permanentes. Ele é útil para prevenir ações indesejadas, fornecendo ao usuário a chance de confirmar ou cancelar a ação.
 ## Install 
