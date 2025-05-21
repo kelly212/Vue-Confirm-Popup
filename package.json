@@ -1,6 +1,6 @@
 {
   "name": "v-confirm-popup",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "É um componente de confirmação personalizável que exibe um pop-up de confirmação antes de executar ações críticas, como exclusão ou alterações permanentes. Ele é útil para prevenir ações indesejadas, fornecendo ao usuário a chance de confirmar ou cancelar a ação.",
   "author": "Kelly",
   "main": "src/index.js",

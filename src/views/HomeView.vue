@@ -13,8 +13,24 @@
 																														sizeBtn="large"
 																														:hideLabel="true"
 																														@callback="executar()"
+																														@callbackCancel="executar()"
 																														colorOk="red"
 																														colorCancel="green"
+																														colorBtn="red"></v-confirm-popup>
+												</v-col>
+												
+												<v-col cols="4">
+															<v-confirm-popup class="actionsTable-icon"
+																														iconBtn="mdi-delete"
+																														sizeBtn="large"
+																														:hideLabel="true"
+																														@callback="executar()"
+																														@callbackCancel="executar()"
+																														colorOk="red"
+																														colorCancel="green"
+																														:disabled="true"
+																														:tooltipDisabled="true"
+																														tooltipDisabledText="tooltip Disabled Text"
 																														colorBtn="red"></v-confirm-popup>
 												</v-col>
 									</v-row>
