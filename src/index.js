@@ -1,3 +1,3 @@
-import VConfirmPopup from './components/VConfirmPopup';
+import VConfirmPopup from './components/VConfirmPopup.vue';
 
 export default VConfirmPopup;
