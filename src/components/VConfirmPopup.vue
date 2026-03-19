@@ -3,7 +3,7 @@
 						<template v-slot:activator="{ props }">
 									<div style="display: inline;">
 												<v-btn style="padding: 0; min-width: 30px" :color="colorBtn" v-bind="props" :variant="variant" @click="clicou()" :size="sizeBtn" :disabled="disabled">
-															<v-icon aria-label="confirm" v-if="!hideIcon" :size="sizeIcon">{{iconBtn}}</v-icon>
+															<v-icon aria-label="confirm" v-if="!hideIcon" :size="sizeIcon" :color="colorIcon">{{iconBtn}}</v-icon>
 															<span v-if="!hideLabel">{{label}}</span>
 															<v-tooltip v-if="tooltip" activator="parent" location="bottom" :aria-label="tooltip_texto">{{tooltip_texto}}</v-tooltip>
 												</v-btn>
@@ -49,6 +49,7 @@
          colorCancel: {default: 'inherit'},
          colorOk: {default: 'primary'},
          colorBtn: {default: 'primary'},
+         colorIcon: {default: 'red'},
          variant: {default: 'text'},
          iconBtn: {default: 'mdi-delete'},
          hideIcon: {default: false},
