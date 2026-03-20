@@ -2,7 +2,7 @@
 			<v-menu v-model="menu" :close-on-content-click="false" location="bottom">
 						<template v-slot:activator="{ props }">
 									<div style="display: inline;">
-												<v-btn style="padding: 0; min-width: 30px" :color="colorBtn" v-bind="props" :variant="variant" @click="clicou()" :size="sizeBtn" :disabled="disabled">
+												<v-btn style="padding: 0; min-width: 30px" :loading="loading" :color="colorBtn" v-bind="props" :variant="variant" @click="clicou()" :size="sizeBtn" :disabled="disabled">
 															<v-icon aria-label="confirm" v-if="!hideIcon" :size="sizeIcon" :color="colorIcon">{{iconBtn}}</v-icon>
 															<span v-if="!hideLabel">{{label}}</span>
 															<v-tooltip v-if="tooltip" activator="parent" location="bottom" :aria-label="tooltip_texto">{{tooltip_texto}}</v-tooltip>
@@ -55,6 +55,7 @@
          hideIcon: {default: false},
          disabled: {default: false},
          tooltip: {default: false},
+         loading: {default: false},
          tooltip_texto: {default: ''},
          tooltipDisabled: {default: false},
          tooltipDisabledText: {default: ''},
